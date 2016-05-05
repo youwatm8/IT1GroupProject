@@ -12,5 +12,8 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="When you choke on a noodle just right. Well meme'd friendo" />
+        android:text="zack kys"
+        android:textSize="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
 </RelativeLayout>
