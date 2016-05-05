@@ -12,8 +12,9 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="zack kys"
-        android:textSize="120dp"
+        android:text="zackary please kys"
+        android:textSize="90dp"
+        android:textColor="#F50057"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true" />
 </RelativeLayout>
