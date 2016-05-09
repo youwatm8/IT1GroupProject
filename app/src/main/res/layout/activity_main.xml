@@ -12,9 +12,27 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="zackary please kys"
+        android:text="zackary just kys"
         android:textSize="90dp"
         android:textColor="#F50057"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="zackary just kys"
+        android:textColor="#D500F9"
+        android:textSize="93dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="pretty please"
+        android:textColor="#FF1744"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="kys"
+        android:layout_alignParentBottom="true"
+        android:textSize="90dp"
+        android:textColor="#D500F9"/>
 </RelativeLayout>
