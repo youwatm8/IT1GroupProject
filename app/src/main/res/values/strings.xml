@@ -1,5 +1,5 @@
 <resources>
     <string name="scan">Scan</string>
     <string name="QR">QR Scanner</string>
-    <string name="app_name">Attendence Checker</string>
+    <string name="app_name">Attendance Checker</string>
 </resources>
