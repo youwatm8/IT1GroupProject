@@ -34,4 +34,21 @@ public class MainActivity extends Activity implements OnClickListener {
         formatTxt = (TextView)findViewById(R.id.scan_format);
         contentTxt = (TextView)findViewById(R.id.scan_content);
 }
+    public void onActivityResult(int requestCode, int resultCode, Intent intent) {
+//retrieve scan result
+        IntentResult scanningResult = IntentIntegrator.parseActivityResult(requestCode, resultCode, intent);
+        if (scanningResult != null) {
+//we have a result
+        } else {
+            Toast toast = Toast.makeText(getApplicationContext(),
+                    "No scan data received!", Toast.LENGTH_SHORT);
+            toast.show();
+        }
+        String scanContent = scanningResult.getContents();
+        String scanFormat = scanningResult.getFormatName();
+        formatTxt.setText("FORMAT: " + scanFormat);
+        contentTxt.setText("CONTENT: " + scanContent);
+
+    }
+
 }
